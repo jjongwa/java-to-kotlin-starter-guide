@@ -1,18 +1,19 @@
 package com.lannstark.lec02;
 
-import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.NotNull;
 
 public class Person {
 
-  private final String name;
+    private final String name;
 
-  public Person(String name) {
-    this.name = name;
-  }
+    public Person(String name) {
+        this.name = name;
+    }
 
-  public String getName() {
-    return name;
-  }
+    @NotNull
+    public String getName() {
+        return name;
+    }
 
 }
 
